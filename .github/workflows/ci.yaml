@@ -45,6 +45,6 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           context: .
           file: Containerfile
-          build-args: STYLUA_VERSION="2.5.2"
+          build-args: STYLUA_VERSION=2.5.2
           provenance: true
           sbom: true
