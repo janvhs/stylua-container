@@ -43,6 +43,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           annotations: ${{ steps.meta.outputs.annotations }}
           labels: ${{ steps.meta.outputs.labels }}
+          file: {context}/Containerfile
           build-args: STYLUA_VERSION="2.5.2"
           provenance: true
           sbom: true
